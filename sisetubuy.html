@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sisetubuy.css">
+    <link rel="stylesheet" href="css/ress.css">
+    <title>チケットを買う</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="daimei">
+                <h2>Tiimet</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h3>東京ディズニーランド</h3>
+
+        <div class="serch1">
+
+            <form>
+                <input type="date">
+            </form>
+        </div>
+        <h3>枚数</h3>
+        <form name="form1" class="select">
+            <select id="Select1" onchange="selectboxChange();">
+                                <!-- 関数を呼び出す -->
+                <option value="">ご希望の枚数を選んでください</option>
+                <option value="">1枚</option>
+                <option value="">2枚</option>
+                <option value="">3枚</option>
+            </select>
+        </form>
+        <div id="output"></div>
+        <section>
+            <div class="login1">
+                <a href="have.html">
+                    <div class="btn1">決定</div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            <nav>
+                <ul>
+                    <a href="home.html"><li class="home"><img src="img/home.png" alt=""></li></a>
+                    <a href="tikket.html"><li class="home"><img src="img/tikket.png" alt=""></li></a>
+                    <a href="serch.html"><li class="serch"><img src="img/maru.png" alt=""></li></a>
+                    <a href="mail.html"><li class="home"><img src="img/mail.png" alt=""></li></a>
+                    <a href="profill.html"><li class="home"><img src="img/profill.png" alt=""></li></a>
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
+    <script src="js/link.js"></script>
+
+</body>
+</html>

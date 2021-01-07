@@ -1,0 +1,95 @@
+@charset "UTF-8";
+body {
+  font-family: "こぶりなゴシック Std";
+}
+
+.back {
+  background: #9CD5E0;
+  z-index: 1;
+  position: absolute;
+  height: 896px;
+  width: 100%;
+}
+
+.main {
+  background: white;
+  width: 92%;
+  margin-left: 15px;
+  z-index: 0;
+  height: 800px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.main h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.main .photo {
+  margin-top: 20px;
+}
+
+.main .photo p {
+  text-align: center;
+}
+
+.main .photo input[type="file"] {
+  text-align: center;
+}
+
+.main .new {
+  padding-left: 40px;
+}
+
+.main .text {
+  border-bottom: solid gray 2px;
+  width: 700px;
+  margin-top: 10px;
+  height: 20px;
+}
+
+.main #aa {
+  margin-top: 40px;
+}
+
+.main #preview {
+  width: 200px;
+  margin: 200px;
+}
+
+.main label {
+  margin-top: 20px;
+}
+
+.main input {
+  margin: 0 auto;
+}
+
+.main .images {
+  border: gray 3px solid;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.login {
+  text-align: center;
+}
+
+.login .btn {
+  border-radius: 40px;
+  width: 80%;
+  margin-left: 19px;
+  margin-top: 50px;
+  padding: 20px 40px;
+  background: #4F7680;
+  border: #707070 solid 1px;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+body {
+  font-family: "こぶりなゴシック Std";
+}
+
+.head {
+  background: #9CD5E0;
+  display: flex;
+  height: 60px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.head .daimei {
+  color: #707070;
+  margin-left: 170px;
+  padding-top: 10px;
+}
+
+.head .img {
+  padding-left: 90px;
+  padding-top: 10px;
+}
+
+main {
+  position: relative;
+}
+
+main .area {
+  background: #C1C1C1;
+  border-radius: 0 0 30px 30px;
+  padding-top: 60px;
+  text-align: center;
+  opacity: 0.6;
+  position: relative;
+  z-index: 0;
+}
+
+main .yazi {
+  padding-top: 58px;
+  padding-left: 20px;
+  position: absolute;
+  z-index: 1;
+}
+
+main .mail {
+  height: 80px;
+  text-decoration: none;
+  color: #707070;
+}
+
+main .line {
+  padding: 70px 0 30px 30px;
+}
+
+main .line .line:not(:first-child) {
+  padding-top: 30px;
+}
+
+main .line a {
+  text-decoration: none;
+  color: #707070;
+}
+
+main .pro img {
+  float: left;
+}
+
+main .pro .name {
+  font-size: 20px;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+main .pro .circle {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+main .pro .seikaku {
+  padding-left: 85px;
+}
+
+.foot {
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  z-index: 1;
+  position: fixed;
+}
+
+.foot ul {
+  display: flex;
+  justify-content: space-around;
+  background: #9CD5E0;
+  height: 70px;
+  position: relative;
+}
+
+.foot ul li {
+  list-style: none;
+}
+
+.foot ul .home {
+  padding-top: 20px;
+}
+
+.foot ul .serch {
+  bottom: 20%;
+  left: 38%;
+  position: absolute;
+  cursor: pointer;
+}

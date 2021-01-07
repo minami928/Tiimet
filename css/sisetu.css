@@ -1,0 +1,106 @@
+@charset "UTF-8";
+body {
+  font-family: "こぶりなゴシック Std";
+  color: #707070;
+}
+
+.head {
+  background: #9CD5E0;
+  display: flex;
+  height: 60px;
+  width: 100%;
+}
+
+.head .daimei {
+  margin-left: 170px;
+  padding-top: 10px;
+}
+
+.head .img {
+  padding-left: 90px;
+  padding-top: 10px;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-left: 30px;
+  position: relative;
+}
+
+h3::after {
+  content: "";
+  border-bottom: solid 2px gray;
+  width: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 22px;
+}
+
+.serch {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.serch .nyuryoku {
+  border: grey 1px solid;
+  border-radius: 10px;
+}
+
+.kekka {
+  border: #707070 solid 1px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.kekka h3 {
+  text-align: center;
+  text-decoration: none;
+}
+
+.kekka p {
+  text-align: center;
+  color: gray;
+}
+
+.kekka .area {
+  margin-top: 30px;
+  color: #707070;
+}
+
+.kekka a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.foot {
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  z-index: 1;
+  position: fixed;
+}
+
+.foot ul {
+  display: flex;
+  justify-content: space-around;
+  background: #9CD5E0;
+  height: 70px;
+  position: relative;
+}
+
+.foot ul li {
+  list-style: none;
+}
+
+.foot ul .home {
+  padding-top: 20px;
+}
+
+.foot ul .serch {
+  bottom: 20%;
+  left: 28%;
+  position: absolute;
+  cursor: pointer;
+}

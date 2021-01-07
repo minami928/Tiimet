@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body {
+  font-family: "こぶりなゴシック Std";
+}
+
+.back {
+  background: #9CD5E0;
+  z-index: 1;
+  position: absolute;
+  height: 896px;
+  width: 100%;
+}
+
+.main {
+  background: white;
+  width: 92%;
+  margin-left: 15px;
+  z-index: 0;
+  margin-top: 40px;
+  height: 800px;
+}
+
+.main h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.main .new {
+  margin-top: 50px;
+  padding-left: 40px;
+}
+
+.main .new2 {
+  margin-top: 50px;
+}
+
+.main .text {
+  border-bottom: solid gray 2px;
+  width: 700px;
+  height: 20px;
+  margin-top: 100px;
+}
+
+.main #aa {
+  margin-top: 100px;
+}
+
+.main button {
+  background: #4F7680;
+  border-radius: 40px;
+  width: 80%;
+  margin-left: 30px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 200px;
+  border: #707070 solid 1px;
+  text-decoration: none;
+  color: white;
+}

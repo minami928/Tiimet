@@ -1,0 +1,154 @@
+@charset "UTF-8";
+body {
+  font-family: "こぶりなゴシック Std";
+}
+
+.head {
+  background: #9CD5E0;
+  display: flex;
+  height: 60px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+
+.head .daimei {
+  color: #707070;
+  margin-left: 170px;
+  padding-top: 10px;
+}
+
+.head .img {
+  padding-left: 90px;
+  padding-top: 10px;
+}
+
+h3 {
+  margin-top: 100px;
+  margin-left: 30px;
+  position: relative;
+}
+
+h3::after {
+  content: "";
+  border-bottom: solid 2px gray;
+  width: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 22px;
+}
+
+.select_form {
+  display: block;
+  position: relative;
+  margin: 0 0 15px;
+  padding: 0 120px 0 0;
+}
+
+#select_search {
+  width: 100%;
+  padding: 5px;
+  font-size: 100%;
+  border: solid 1px gray;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.select_box {
+  margin: 0;
+  padding: 10px;
+  background: #EFEFEF;
+}
+
+.select_title {
+  margin: 0 0 7px;
+  text-align: center;
+  font-size: 120%;
+  color: #333;
+  font-weight: bold;
+}
+
+.select_txt_off {
+  margin: 0;
+  padding: 13px 0;
+  background: #fff;
+  text-align: center;
+  font-size: 120%;
+  color: #333;
+  border-radius: 3px;
+}
+
+.select_txt {
+  display: none;
+  margin: 0;
+  padding: 13px 0;
+  background: #fff;
+  text-align: center;
+  font-size: 120%;
+  color: #333;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.check {
+  border: gray solid 1px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.login1 {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.login1 p {
+  padding-bottom: 20px;
+}
+
+.login1 .btn1 {
+  border: black solid 1px;
+  border-radius: 40px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: #4F7680;
+}
+
+.login1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.foot {
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  z-index: 1;
+  position: fixed;
+}
+
+.foot ul {
+  display: flex;
+  justify-content: space-around;
+  background: #9CD5E0;
+  height: 70px;
+  position: relative;
+}
+
+.foot ul li {
+  list-style: none;
+}
+
+.foot ul .home {
+  padding-top: 20px;
+}
+
+.foot ul .serch {
+  bottom: 20%;
+  left: 38%;
+  position: absolute;
+  cursor: pointer;
+}

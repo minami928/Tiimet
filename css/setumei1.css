@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+  font-family: "こぶりなゴシック Std";
+}
+
+.back {
+  background: #9CD5E0;
+  z-index: 1;
+  position: absolute;
+  height: 896px;
+  width: 100%;
+}
+
+.main {
+  background: white;
+  width: 92%;
+  margin-left: 15px;
+  z-index: 0;
+  height: 800px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.main h2 {
+  font-size: 27px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.main span {
+  padding-left: 80px;
+}
+
+.images {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.login {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.login p {
+  padding-bottom: 20px;
+}
+
+.login .btn {
+  border: solid gray 2px;
+  background: #4F7680;
+  border-radius: 40px;
+  width: 60%;
+  margin-left: 80px;
+  padding: 20px 40px;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.maru {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}

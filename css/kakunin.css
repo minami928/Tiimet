@@ -1,0 +1,140 @@
+@charset "UTF-8";
+body {
+  font-family: "こぶりなゴシック Std";
+  color: gray;
+}
+
+.head {
+  background: #9CD5E0;
+  display: flex;
+  height: 60px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+
+.head .daimei {
+  color: #707070;
+  margin-left: 170px;
+  padding-top: 10px;
+}
+
+.head .img {
+  padding-left: 90px;
+  padding-top: 10px;
+}
+
+.kakunin {
+  display: flex;
+  flex-direction: row;
+  border: gray 1px solid;
+  width: 90%;
+  margin-left: 20px;
+  height: 350px;
+  margin-top: 30px;
+}
+
+.kakunin .left {
+  border-right: gray 2px solid;
+}
+
+.kakunin .left li {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  list-style: none;
+  text-align: center;
+}
+
+.kakunin .right li {
+  padding-top: 20px;
+  padding-left: 20px;
+  list-style: none;
+  text-align: center;
+}
+
+.pro img {
+  float: left;
+}
+
+.pro .name {
+  font-size: 20px;
+  margin-left: 70px;
+  padding-top: 10px;
+}
+
+.pro span {
+  margin-top: 100px;
+}
+
+.pro span a {
+  color: #FF4E00;
+  font-size: 15px;
+}
+
+.two {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.seikaku a {
+  font-size: 10px;
+  color: gray;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.login1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.login1 p {
+  padding-bottom: 20px;
+}
+
+.login1 .btn1 {
+  border-radius: 40px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: #4F7680;
+}
+
+.login1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.foot {
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  z-index: 1;
+  position: fixed;
+}
+
+.foot ul {
+  display: flex;
+  justify-content: space-around;
+  background: #9CD5E0;
+  height: 70px;
+  position: relative;
+}
+
+.foot ul li {
+  list-style: none;
+}
+
+.foot ul .home {
+  padding-top: 20px;
+}
+
+.foot ul .serch {
+  bottom: 20%;
+  left: 38%;
+  position: absolute;
+  cursor: pointer;
+}

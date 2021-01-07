@@ -1,0 +1,137 @@
+@charset "UTF-8";
+body {
+  font-family: "こぶりなゴシック Std";
+  color: #707070;
+}
+
+.head {
+  background: #9CD5E0;
+  display: flex;
+  height: 60px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+
+.head .daimei {
+  color: #707070;
+  margin-left: 170px;
+  padding-top: 10px;
+}
+
+.head .img {
+  padding-left: 90px;
+  padding-top: 10px;
+}
+
+main {
+  height: 900px;
+}
+
+h3 {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.aa {
+  margin-top: 50px;
+}
+
+.serch {
+  padding-top: 20px;
+}
+
+.serch form {
+  text-align: center;
+  width: 85%;
+  padding: 20px 40px;
+  border: gray solid 1px;
+}
+
+.kekka {
+  border: black solid 1px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.hitokoto {
+  border: black solid 1px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.login1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.login1 p {
+  padding-bottom: 20px;
+}
+
+.login1 .btn1 {
+  border: #707070 solid 1px;
+  border-radius: 40px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 40px;
+  background: #4F7680;
+}
+
+.login1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.area {
+  border: solid 1px gray;
+  width: 80%;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+.area ul {
+  list-style: none;
+  text-align: center;
+}
+
+.area ul li {
+  padding-top: 20px;
+}
+
+.area ul a {
+  text-decoration: none;
+  color: gray;
+}
+
+.foot {
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  z-index: 1;
+  position: fixed;
+}
+
+.foot ul {
+  display: flex;
+  justify-content: space-around;
+  background: #9CD5E0;
+  height: 70px;
+  position: relative;
+}
+
+.foot ul li {
+  list-style: none;
+}
+
+.foot ul .home {
+  padding-top: 20px;
+}
+
+.foot ul .serch {
+  bottom: 20%;
+  left: 38%;
+  position: absolute;
+  cursor: pointer;
+}

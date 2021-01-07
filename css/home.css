@@ -1,0 +1,93 @@
+@charset "UTF-8";
+body {
+  font-family: "こぶりなゴシック Std";
+}
+
+.head {
+  background: #9CD5E0;
+  display: flex;
+  height: 60px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+}
+
+.head .daimei {
+  color: #707070;
+  margin-left: 170px;
+  padding-top: 10px;
+}
+
+.head .img {
+  padding-left: 90px;
+  padding-top: 10px;
+}
+
+main {
+  position: relative;
+  height: 1000px;
+  z-index: 0;
+}
+
+.line {
+  border-bottom: solid 2px gray;
+  padding: 70px 0 30px 30px;
+}
+
+.line .line:not(:first-child) {
+  padding-top: 30px;
+}
+
+.line a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.pro img {
+  float: left;
+}
+
+.pro .name {
+  font-size: 20px;
+  margin-left: 70px;
+  padding-top: 10px;
+}
+
+.writte {
+  position: fixed;
+  top: 0;
+  margin-top: 670px;
+  margin-left: 330px;
+}
+
+.foot {
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  z-index: 1;
+  position: fixed;
+}
+
+.foot ul {
+  display: flex;
+  justify-content: space-around;
+  background: #9CD5E0;
+  height: 70px;
+  position: relative;
+}
+
+.foot ul li {
+  list-style: none;
+}
+
+.foot ul .home {
+  padding-top: 20px;
+}
+
+.foot ul .serch {
+  bottom: 20%;
+  left: 38%;
+  position: absolute;
+  cursor: pointer;
+}

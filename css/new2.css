@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+  font-family: "こぶりなゴシック Std";
+}
+
+.back {
+  background: #9CD5E0;
+  z-index: 1;
+  position: absolute;
+  height: 896px;
+  width: 100%;
+}
+
+.main {
+  background: white;
+  width: 92%;
+  margin-left: 15px;
+  z-index: 0;
+  height: 800px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.main input[type="checkbox"] {
+  padding-top: 30px;
+}
+
+.main .seikaku {
+  padding-top: 40px;
+}
+
+.main .seikaku .sen {
+  border: gray 1px solid;
+  width: 80%;
+  height: 290px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.main .seikaku .namae {
+  padding-left: 40px;
+}
+
+.main .seikaku .area {
+  border: gray 1px solid;
+  margin-left: 40px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.main .naiyo {
+  padding-left: 40px;
+  margin-top: 140px;
+}
+
+.main textarea {
+  width: 300px;
+  height: 200px;
+}
+
+.main .button {
+  background: #4F7680;
+  border-radius: 40px;
+  width: 80%;
+  margin-left: 40px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.main .button a {
+  text-decoration: none;
+  color: white;
+}
